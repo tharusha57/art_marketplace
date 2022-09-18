@@ -1,0 +1,31 @@
+.pagination {
+    display: flex;
+    width: 372px;
+    height: 40px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 64px;
+    gap: 8px;
+}
+
+.pagination div {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Gray/Transparent/5 */
+    border: 1px solid var(--color-gray-transparent-5);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.pagination div:hover{
+    border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.pagination div:active{
+    background: var(--color-gray-transparent-5);
+    border: none;
+}

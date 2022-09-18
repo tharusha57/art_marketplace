@@ -1,0 +1,128 @@
+.hero {
+    width: 1121px;
+    height: 392px;
+    top: 228px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 148px;
+    margin-bottom: 139px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.hero--details {
+    width: 438px;
+    height: 317px;
+    left: 136px;
+    top: 256px;
+    margin-top: 25px;
+
+}
+
+.hero--details p {
+
+    width: 115px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    color: var(--color-gray-transparent-2);
+}
+
+.hero--details h1 {
+
+    width: 438px;
+    height: 216px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    margin-top: 11px;
+    /* or 100% */
+
+    letter-spacing: -1.5px;
+    color: var(--color-gray-transparent-1);
+}
+
+.hero--details--profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 14px 0px 0px;
+    gap: 12px;
+    margin-top: 26px;
+    width: 221px;
+    height: 40px;
+
+    /* Gray/Transparent/5 */
+
+    background: var(--color-gray-transparent-5);
+    border-radius: 30px;
+}
+
+.hero--details--profile p {
+    width: 155px;
+    height: 20px;
+
+    font-family: 'Albert Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+
+    /* Gray/Transparent/2 */
+    color: var(--color-gray-transparent-2);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.hero--details--profile img {
+    width: 40px;
+    height: 40px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.hero--frame img {
+    width: 600px;
+    height: 392px;
+    left: 657px;
+    top: 228px;
+
+    box-shadow: inset 0px 1px 2px rgba(255, 255, 255, 0.06);
+    filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.7));
+}
+
+.hero--details-view {
+    width: 121px;
+    height: 24px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+    color: #FFFFFF;
+    transition: 0.3s;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.hero--details-view:hover{
+    color: var(--color-gray-transparent-1)
+}
+.hero--details-view:active{
+    color: var(--color-white)
+}

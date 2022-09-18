@@ -1,0 +1,260 @@
+.image-only {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 596px;
+}
+
+.image-only img {
+    transform: scale(1.8);
+    transform-origin: 50% 50%;
+}
+
+.image-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 115px;
+}
+
+.image-details-info-artist {
+    display: flex;
+    width: 271px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 39px;
+}
+
+.image-details-info-artist img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.image-details-info {
+    height: 525px;
+    width: 575px;
+}
+
+.image-details-price {
+    height: 525px;
+    width: 575px;
+}
+
+.image-details-price p {
+    margin-top: 12px;
+}
+
+.image-details-info h3 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    width: 514px;
+    margin-bottom: 18px;
+}
+
+.image-details-info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 12px;
+}
+
+.image-details h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.image-details-price-container {
+    width: 575px;
+    padding: 28px 36px;
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    /* Gray/Solid/6 */
+    background: #1D1D1D;
+    margin-bottom: 12px;
+    /* Evaluation/4 */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7), inset 0px 1px 2px rgba(255, 255, 255, 0.08);
+}
+
+.image-details-price-container-price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.image-details-price-container-price h3 {
+    margin-top: 12px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.stroke {
+    border: 1px solid black;
+}
+
+.quantity-value {
+    display: flex;
+}
+
+.quantity-value-plus {
+    padding: 12px 20px;
+    gap: 10px;
+
+    width: 64px;
+    height: 48px;
+
+    /* Button Gradient/Gray/Gradient */
+
+    background: linear-gradient(180deg, #2A2B2F 0%, #17181A 100%);
+    /* Evaluation/1 */
+
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.7), inset 0px 1px 2px rgba(255, 255, 255, 0.08);
+    border-radius: 24px 0px 0px 24px;
+
+}
+
+.quantity-value-minus {
+    padding: 12px 20px;
+    gap: 10px;
+
+    width: 64px;
+    height: 48px;
+
+    /* Button Gradient/Gray/Gradient */
+
+    background: linear-gradient(180deg, #2A2B2F 0%, #17181A 100%);
+    /* Evaluation/1 */
+
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.7), inset 0px 1px 2px rgba(255, 255, 255, 0.08);
+    border-radius: 0px 24px 24px 0px;
+
+}
+
+.quantity-value-quantity {
+    text-align: center;
+    gap: 10px;
+    width: 104px;
+    height: 52px;
+    background: linear-gradient(180deg, #0A0A0A 0%, #0F0F0F 100%);
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.15), inset 0px -1px 0px rgba(255, 255, 255, 0.06);
+}
+
+.quantity-value-quantity p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.quantity {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quantity-button button {
+    padding: 10px 20px;
+    gap: 8px;
+    width: 231px;
+    height: 48px;
+    border-radius: 20px;
+    /* Button Gradient/Gray/Gradient */
+    background: linear-gradient(180deg, #2A2B2F 0%, #17181A 100%);
+    /* Button Styles/Secondary/Default */
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.07), inset 0px -1px 0px rgba(0, 0, 0, 0.49);
+    border: none
+}
+
+.quantity span {
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+
+    /* Accent/Solid/3 */
+    color: #A394FF;
+}
+
+.shipping-details {
+    display: flex;
+    width: 250px;
+    height: 29px;
+    margin-top: 27px;
+}
+
+.shipping-details h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 15px;
+}
+
+.image-details-price-container-quantity {
+    margin-top: 22px;
+}
+
+.image-details-price-container-quantity p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 6px;
+}
+
+.artist-meet h3,
+.like-arts h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: -93px;
+    margin-top: 49px;
+}
+
+.artist-hide-overflow {
+    height: 550px;
+    width: 1216px;
+    overflow: hidden;
+}
+
+.like-arts-arts {
+    margin-top: 120px;
+}
+
+.categories {
+    margin-top: 48px;
+}
+
+.categories h3 {
+    left: 84px;
+    top: 2513px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 12px;
+}
+.categories-tags{
+    display: flex;
+    gap: 12px;
+}
+
+.categories-tags div {
+    display: inline;
+    align-items: center;
+    padding: 10px 16px;
+
+    /* Gray/Transparent/5 */
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 30px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    
+    .section{
+        width: 60%
+    }
+  }

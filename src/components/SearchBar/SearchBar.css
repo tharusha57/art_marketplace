@@ -1,0 +1,26 @@
+input {
+    border: none;
+    background-color: none;
+    height: 40px;
+    width: 430px;
+    background-color: var(--color-gray-transparent-8);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+    background-color: var(--color-black);
+}
+
+
+@media(max-width:1250px) {
+
+    input {
+        width: 255px;
+        border-radius: 20px;
+        margin-right: 10px;
+    }
+
+}

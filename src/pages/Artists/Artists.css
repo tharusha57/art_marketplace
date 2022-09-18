@@ -1,0 +1,143 @@
+.artist-card-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 27px;
+    row-gap: 25px;
+    margin-top: 36px;
+}
+.artists h3 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    width: 100vw;
+    line-height: 43px;
+    letter-spacing: -1px;
+    color: var(--color-gray-transparent-1);
+    margin: 40px 0;
+}
+
+.artist-card {
+    width: 385px;
+    height: 426px;
+
+    /* Gray/Solid/6 */
+    background: var(--color-gray-solid-6);
+    border: 1px solid #000000;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.artist-card-image {
+    height: 168px;
+    width: 385px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.artist-card img {
+    height: 168px;
+    width: 100%;
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
+}
+
+.artist-card-dpimage {
+    height: 96px;
+    width: 96p;
+}
+
+.artist-card-dpimage img {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 116px;
+    z-index: 11;
+}
+
+.artist-card-bg {
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    top: 106px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--color-gray-solid-6);
+    border-radius: 100%;
+}
+
+.artist-card-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+    position: absolute;
+    width: 354px;
+    height: 196px;
+    left: 16px;
+    top: 225px;
+    text-align: center;
+
+}
+
+.artist-card-details h4 {
+    height: 29px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    text-align: center;
+    /* Gray/Transparent/1 */
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.artist-card-details p {
+    width: 354px;
+    height: 88px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Gray/Transparent/2 */
+    color: rgba(255, 255, 255, 0.65);
+
+}
+
+.artist-card-peices {
+    display: flex;
+    width: 354px;
+    justify-content: space-between;
+}
+
+.artist-card-peices div {
+    padding: 6px 12px;
+    gap: 10px;
+    width: 88px;
+    height: 30px;
+
+    /* Gray/Transparent/5 */
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 18px;
+}
+
+.artist-card-peices span {
+    width: 64px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    text-align: center;
+    /* Gray/Transparent/2 */
+    color: rgba(255, 255, 255, 0.65);
+
+}
+

@@ -1,0 +1,59 @@
+.vectors {
+    position: absolute;
+    width: 100%;
+    height: 640.31px;
+    left: -49px;
+    top: -92px;
+
+    opacity: 0.2;
+    filter: blur(150px);
+    z-index: -1;
+}
+
+.vector3 {
+    position: absolute;
+    width: 25%;
+    height: 373px;
+    left: -49px;
+    top: -85px;
+
+    background: #FD2E00;
+}
+
+.vector2 {
+    position: absolute;
+    width: 25%;
+    height: 311px;
+    left: 327px;
+    top: -19px;
+
+    background: #7BDB00;
+}
+
+.vector1 {
+    position: absolute;
+    width: 25%;
+    height: 494.89px;
+    left: 775.68px;
+    top: -92px;
+
+    background: #FF4D9C;
+    transform: rotate(44.47deg);
+}
+
+.vector4 {
+    position: absolute;
+    width: 25%;
+    height: 383px;
+    left: 907px;
+    top: -39px;
+
+    background: #6842FF;
+}
+
+
+@media(max-width:1250px) {
+    .vectors{
+        width: 800px;
+    }
+}   

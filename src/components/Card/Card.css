@@ -1,0 +1,104 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 289px;
+    height: 454px;
+    cursor: pointer;
+    /* Gray/Solid/7 */
+    background: var(--color-gray-solid-7);
+    box-shadow: inset 0px 1px 2px rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.card-image {
+    width: 289px;
+    height: 350px;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.card-image-cover {
+    margin: auto;
+    display: block;
+}
+
+.card-image-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 237px;
+    top: 6px;
+}
+
+.card-details{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-details h3 {
+    display: inline-block;
+    overflow: hidden;
+     
+}
+
+.card-details p {
+    width: 249px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.18px;
+    display: block;
+    /* Gray/Transparent/1 */
+    color: var(--color-gray-transparent-1);
+}
+
+.card-detail-artists {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 149px;
+    height: 24px;
+    border-radius: 30px;
+    flex: none;
+    flex-grow: 0;
+    margin-top: 8px;
+}
+
+.card-detail-artists img {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    flex-grow: 0;
+}
+
+.card-detail-artists p {
+    width: 117px;
+    height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.18px;
+
+    /* Gray/Transparent/2 */
+    color: var(--color-gray-transparent-2);
+    flex: none;
+    flex-grow: 0;
+    margin: auto;
+    display: block;
+}
